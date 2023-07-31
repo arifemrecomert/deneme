@@ -3,33 +3,35 @@ package day18_whileLoop_DoWhileLoop;
 import java.util.Scanner;
 
 public class C06_DoWhileLoop {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
-        // kullanıcıdan toplanmak üzere pozitif sayılar isteyin
-        // kullanıcı işlemi bitirmek için sıfıra basmalıdır
-        // kullanıcı sıfıra bastığında kaç pozitif sayı girdiğini
-        // ve toplamlarının kaç olduğunu yazdıın
+        // kullanicidan toplanmak uzere pozitif sayilar isteyin
+        // kullanici islemi bitirmek icin 0'a basmalidir
+        // kullanici 0'a bastiginda kac pozitif sayi girdigini
+        // ve toplamlarinin kac oldugunu yazdirin
 
-        // önce while loop ile yapalım
-/*
-        Scanner scanner ;
-        int sayac = 0;
-        int toplam = 0;
-        int girilensayı = 9;
+        // once while loop ile yapalim
 
-        while(girilensayı !=0){
-            scanner=new Scanner(System.in);
-            System.out.println("lütfen toplanmak üzere pozitif sayı giriniz");
-            girilensayı = scanner.nextInt();
+        Scanner scanner;
+        int sayac = 0 ;
+        int toplam = 0 ;
+        int girilensayi = 9;
 
-            if (girilensayı !=0){
-                toplam+=girilensayı;
+        while(girilensayi != 0){
+
+            scanner = new Scanner(System.in);
+            System.out.println("Lutfen toplanmak uzere pozitif sayi giriniz");
+            girilensayi = scanner.nextInt();
+
+            if (girilensayi != 0){
+                toplam += girilensayi;
                 sayac++;
             }
-
         }
-        System.out.println("Girilen"+sayac+"adet sayının toplamı"+toplam);
- */
+        System.out.println("Girilen " + sayac + " adet sayinin toplami : " + toplam);
+
+         /*
+
         // do while ile yapalim
 
         Scanner scanner;
@@ -41,6 +43,7 @@ public class C06_DoWhileLoop {
         do {
             scanner = new Scanner(System.in);
             System.out.println("Lutfen toplanmak uzere pozitif sayi giriniz");
+
             girilensayi = scanner.nextInt();
 
             if (girilensayi != 0){
@@ -51,6 +54,8 @@ public class C06_DoWhileLoop {
         }while (girilensayi != 0);
 
         System.out.println("Girilen " + sayac + " adet sayinin toplami : " + toplam);
+
+          */
 
     }
 }

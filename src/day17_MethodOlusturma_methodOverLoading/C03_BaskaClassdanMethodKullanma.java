@@ -2,6 +2,7 @@ package day17_MethodOlusturma_methodOverLoading;
 
 import day16_methodOlusturma_Kullanma.C01_MethodOlusturma;
 import day16_methodOlusturma_Kullanma.C03_MethodOlusturma;
+import day16_methodOlusturma_Kullanma.Örnek2;
 
 public class C03_BaskaClassdanMethodKullanma {
     public static void main(String[] args) {
@@ -9,6 +10,8 @@ public class C03_BaskaClassdanMethodKullanma {
         System.out.println(C03_MethodOlusturma.isimdüzenle("ömer", "GOK"));
         System.out.println(C01_AsalSayiBulma.asalSayiMi(59));
         System.out.println(C02_TamBölenlerSayısınıBulma.tamBolenlerSayisi(12));
+
+
 
     }
 }

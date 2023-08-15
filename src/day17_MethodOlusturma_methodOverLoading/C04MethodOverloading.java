@@ -1,5 +1,7 @@
 package day17_MethodOlusturma_methodOverLoading;
 
+import day16_methodOlusturma_Kullanma.Örnek2;
+
 public class C04MethodOverloading {
      /*
         Biz bir method call yaptigimizda
